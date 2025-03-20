@@ -9,8 +9,8 @@ Simple UI web page games with Catch-all-Routes, layout, and include set 404 not 
 
 ## 🔑 Key Learnings
 - **using Catch-all-route** : captures multiple URL segment into array ----> [...slug]/page.tsx
-- **layout.tsx** : ใช้ในการจัด layout page, Ex. Fix Navbar & Footer ในทุกๆpage -----> use Typescript ReactNode
-- **not-found.tsx** : URL(folder) นอกเหนือที่เราสร้างไว้จะโชว์ Error -- Custom ได้
+- **layout.tsx** : ใช้ในการจัด layout page, Ex. Fix Navbar & Footer ในทุกๆpage -----> use props as **children** + Typescript **ReactNode** 
+- **not-found.tsx** : URL(folders) นอกเหนือจากที่เราสร้างไว้จะโชว์ Error (Customize)
 - **redirect** : redicrect ไปยังลิ้งต่างๆที่ต้องการ  เปลี่ยน type URL auto
 - **loading.tsx** : customize หน้า loading ได้ + ใช้คู่กับ async + await & setTimeout
 
