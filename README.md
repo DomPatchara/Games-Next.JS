@@ -1,7 +1,7 @@
 # Learning Create Games Web by Next.JS
 Simple UI web page games with Catch-all-Routes, layout, and include set 404 not found page.
 
-## ✨ Feature
+## ✨ Features
 - Responsive layout
 - Dinamic Route
 - navigate route with Link
